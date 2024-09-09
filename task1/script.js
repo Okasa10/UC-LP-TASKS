@@ -28,7 +28,7 @@ const printData = (productData, element, no, length) => {
             `<div class="card" style="width: 18rem;">
         <img src="${productData[i].thumbnail}" class="card-img-top" alt="${productData[i].title}">
         <div class="card-body">
-        <h5 class="card-title"><h4>${productData[i].title}</h4> <br><br> Price:${productData[i].price}$  </h5>
+        <h5 class="card-title"><h4>${productData[i].title}</h4><br><br> Id: ${productData[i].id} <br><br> Price:${productData[i].price}$  </h5>
         <p class="card-text">${productData[i].description}<br><br>Stock:${productData[i].stock}</p>
         </div>
         </div>`
